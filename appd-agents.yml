@@ -17,13 +17,13 @@ spec:
       containers:
         - env:
             - name: APPDYNAMICS_CONTROLLER_HOST_NAME
-              value: ""
+              value: "qc-appd-cntr01-tst.esphere.local"
             - name: APPDYNAMICS_CONTROLLER_PORT
-              value: ""
+              value: "8090"
             - name: APPDYNAMICS_AGENT_ACCOUNT_NAME
               value: "customer1"
             - name: APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY
-              value: ""
+              value: "82556268-6010-4bf4-b1da-2a8a9b1bfcbf"
             - name: APPDYNAMICS_SIM_ENABLED
               value: "true"
             - name: APPDYNAMICS_DOCKER_ENABLED
